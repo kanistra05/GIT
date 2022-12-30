@@ -1,21 +1,39 @@
 JSON
- 4. Создать внешний репозиторий c названием JSON.
-`curl -u 'kanistra05' https://api.github.com/user/repos -d '{"name":"JSON"}'`
+4. Создать внешний репозиторий c названием JSON.
+```
+curl -u 'kanistra05' https://api.github.com/user/repos -d '{"name":"JSON"}'
+```
  5. Клонировать репозиторий JSON на локальный компьютер.
- `git clone https://github.com/kanistra05/JSON`
+ ```
+ git clone https://github.com/kanistra05/JSON
+ ```
  6. Внутри локального JSON создать файл “new.json”.
-`touch new.json`
+```
+touch new.json
+```
  7. Добавить файл под гит.
-`git add new.json`
+```
+git add new.json
+```
  8. Закоммитить файл.
-`git commit -m 'create new.json'`
+```
+git commit -m 'create new.json'
+```
  9. Отправить файл на внешний GitHub репозиторий.
-`git push --set-upstream JSON master`
+```
+git push --set-upstream JSON master
+```
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-`vim new.json`
+```
+vim new.json
+```
  11. Отправить изменения на внешний репозиторий.
-`git commit -am 'edit new.json'`
-`git push`
+```
+git commit -am 'edit new.json'
+```
+```
+git push
+```
  12. Создать файл preferences.json
 `touch preferences.json`
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
